@@ -83,7 +83,9 @@ html {
   margin-top: 10rem;
   text-align: center;
 }
+
 /* yoyr balance shadow */
+
 .balance h2 {
   font-family: "Baloo Da 2", serif;
   font-size: 4.5rem;
@@ -349,5 +351,41 @@ input[type="number"]::-webkit-inner-spin-button {
 
   .transaction {
     width: 28rem;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .transaction-list,
+  .transactions-expense,
+  .transactions,
+  .app-wrapper,
+  .income-expense,
+  .delete-btn,
+  .transaction-amount,
+  .transaction-text,
+  .transactions-expense .transaction,
+  .transactions-income .transaction,
+  .transaction-text,
+  .header,
+  .header h1,
+  .app-wrapper,
+  .balance,
+  .balance h2,
+  .balance h3,
+  .income-expense,
+  .plus,
+  .minus,
+  .income-expense h3,
+  .income-expense p,
+  .form-wrapper,
+  .input-group,
+  .income,
+  .expense,
+  .input-group,
+  .expense input,
+  .income input,
+  .transactions,
+  .transactions-income,
+  .container {
+    width: 100%;
   }
 }
