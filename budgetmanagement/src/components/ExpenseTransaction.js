@@ -15,6 +15,7 @@ const ExpenseTransaction = ({ expenseTransaction }) => {
            { 
           if
           // Asking for confirmation before deleting the list
+          
            (window.confirm('Are you sure you wish to delete this item?'))
           deleteTransaction(expenseTransaction.id)
         }}
